@@ -1,8 +1,13 @@
 ---
 title: "Intro to Unix for Bioinformatics"
 author: "Alana Schick"
-date: "02/07/2020"
-output: html_document
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+    toc_depth: 4
 ---
 
 ```{r setup, include=FALSE}
